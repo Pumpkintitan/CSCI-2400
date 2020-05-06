@@ -1,0 +1,11 @@
+./sdriver.pl -t trace16.txt -s ./tsh -a "-p"
+#
+# trace16.txt - Tests whether the shell can handle SIGTSTP and SIGINT
+#     signals that come from other processes instead of the terminal.
+#
+tsh> ./mystop 2
+Job [1] (2514) stopped by signal 20
+tsh> jobs
+[1] (2514) Stopped ./mystop 2
+tsh> ./myint 2
+Job [2] (2518) terminated by signal 2

@@ -1,0 +1,6 @@
+All your base are belong to us.
+1 2 4 7 11 16
+5 4294967133
+14 7
+beldog
+3 2 1 4 5 6

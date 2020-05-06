@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Malloc Lab",
+            "command": "make",
+            "args": [
+                "mdriver"
+            ],
+            "options": {},
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": ["relative"]
+            },
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "Build Malloc Lab & Run Tests",
+            "command": "make",
+            "args": [
+                "tests"
+            ],
+            "options": {},
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": ["relative"]
+            },
+            "group": "build"
+        }
+    ]
+}
